@@ -65,7 +65,7 @@ function draw() {
 
   for (var i = 0; i < particles.length; i++) {
     if (!particles[i].edges()) {
-      particles[i].update(amp > 170);
+      particles[i].update(amp > 188);
       particles[i].show();
     } else {
       particles.splice(i, 1);
