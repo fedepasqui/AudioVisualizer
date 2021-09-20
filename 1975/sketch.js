@@ -14,7 +14,7 @@ function setup() {
   angleMode(DEGREES);
   imageMode(CENTER);
   rectMode(CENTER);
-  fft = new p5.FFT(0.3);
+  fft = new p5.FFT(0.1);
 
   img.filter(BLUR, 3);
 }
